@@ -11,7 +11,7 @@ public class SpringbootAzureDemoApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "Welcome to Deployment";
+		return "Hi Abhijeet.. Welcome to Deployment";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootAzureDemoApplication.class, args);
